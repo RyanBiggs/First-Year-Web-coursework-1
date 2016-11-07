@@ -1,0 +1,108 @@
+/* Universal selector.  Giving all elements an initial 5 pixel padding and no margin */
+* {
+	padding: 5px;
+	margin: 0;
+}
+/* body selector.  Setting the font family to open sans, in the normal style and 
+   at the default size. Also setting the background picture*/
+body {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-size: 100%;
+	background-image: url("Power_On_-_texture.jpg");
+}
+/* Selecting the 'container' division. Setting a width of 960px and no margin */
+#container {
+	margin: 0 auto;
+	width: 960px;
+}
+/* Selecting the 'container' and setting a solid red border  */
+#container {
+	border: #FD0006 solid 2px;
+}
+/* Selecting the header, 'main_body' and the footer.  Giving each of these elements a 
+   black background colour */
+header, #main_body, footer {
+	background-color: #000000;
+}
+/* header selector.  Setting it to have a minimum height of 40 pixels and a bottom margin
+   of 5 pixels */
+header {
+	min-height: 40px;
+	margin-bottom: 5px;
+}
+/* Selecting 'main_body' division.  Setting it to have a minimum height of 790 pixels and 
+   a bottom margin of 5 pixels in order to put some space between it and the 'main_body' 
+   and setting the background colour to black */
+#main_body {
+	min-height: 790px;
+	margin-bottom: 5px;
+	background-color:#000000;
+}
+/* footer selector.  Setting it to have a minimum height of 20 pixels */
+footer {
+	min-height: 20px;
+}
+/*Setting the colour to a solid green, the font size to 24pt, setting it to be inline with the logo and with the font 'Black ops one'  */
+header h1 {
+	color: #0BDC00;
+	font-size: 24pt;
+	display: inline;
+	vertical-align: middle;
+	font-family: 'Black Ops One'
+}
+/* Setting a height of 75px for the logo and aligning it*/
+header img {
+	height: 75px;
+	vertical-align: middle;
+}
+/*Setting the the colour to green along with setting the font size to 16pt*/
+#main_body h1 {
+	color: #43ED3B;
+	font-size: 16pt;
+}
+/*Setting the the colour to green along with setting the font size to 10pt*/
+#main_body p {
+	color: #70ED69;
+	font-size: 10pt;
+}
+/*Aligning the links in the footer to the center*/
+footer ul {
+	text-align: center;
+}
+/*Setting the footer list to have a font size of 10pt, green colour and to display inline*/
+footer ul li {
+	list-style-type: none;
+	display: inline;
+	font-size: 10pt;
+	color: #70ED69;
+}
+/* forces the social media logos to the right of the header*/
+.headerRight {
+	padding: 0;
+	float: right;
+}
+/*Moves the div into place*/
+#Address{
+	float: left;
+    height: 263px;
+    width: 640px;
+}
+/*Moves the image into place*/
+#map{
+	width: 40%;
+    margin-left: 76%;
+	margin-top: -25%;
+}
+/*makes the address lists green and moves them into place within the div*/ 
+#Address ul li {
+	color: #70ED69;
+	margin-left: 10px
+}
+/*makes the subheadings green*/
+#Address h2 {
+	color: #43ED3B
+}
+
+
+
